@@ -78,7 +78,7 @@ h2 {
     font-size: 1.7rem;
 }
 
-#intro {
+#homepage-intro {
     height:70vh;
     background-color:white;
     background-image:url("https://images.unsplash.com/photo-1571950758113-5ada70ff33e5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2229&q=80"); opacity:0.;
@@ -91,7 +91,7 @@ h2 {
     align-items: flex-start;
 }
 
-.intro-text {
+.homepage-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -105,16 +105,16 @@ h2 {
     margin: 4% 0 0 0;
 }
 
-.intro-text .subtitle {
+.homepage-text .subtitle {
     color: white;
     font-size: 3.5rem;
 }
 
-.intro-text .subtitle span {
+.homepage-text .subtitle span {
     padding: 1rem;
 }
 
-.intro-text .sub-subtitle {
+.homepage-text .sub-subtitle {
     color: white;
     font-size: 2rem;
 }
