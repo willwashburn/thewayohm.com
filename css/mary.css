@@ -125,10 +125,19 @@ h2 {
 
 /*Homepage Body*/
 
+#homepage-body {
+
+}
+
 .page-title {
+    padding: 1%;
     display:flex;
     flex-direction: column;
-    padding: 1%;
+}
+
+.page-title a:hover {
+    font-weight: bold;
+    cursor: pointer;
 }
 
 .page-1-title {
@@ -162,17 +171,23 @@ h2 {
     font-size: 2.2rem;
     color: white;
     padding: 5%;
+    text-align: center;
 }
 
 /*Footer*/
 
 #footer {
-    background-color: #e5dfdf;
+    background-color: #1d4d4f;
 }
 
 .social-icons {
     text-align: center;
+    font-size: 30px;
     padding: 1% 0 0 0;
+}
+
+.social-icons i {
+    color: #e5dfdf;
 }
 
 .contact {
@@ -182,14 +197,13 @@ h2 {
 }
 
 .contact-button {
-    font-size: 12px;
+    font-size: 20px;
     margin: 0 0 1% 0;
     text-decoration: none;
+    color: #e5dfdf;
 }
 
 .contact-button:hover {
-    background-color: white;
-    color: #363062;
     font-weight: bold;
     cursor: pointer;
 }
