@@ -131,8 +131,12 @@ h1 {
 
 /*Homepage Body*/
 
-#homepage-body {
+.homepage-map {
+    padding: 1% 0 1% 0;
+}
 
+.map {
+    height:70vh;
 }
 
 .page-title {
