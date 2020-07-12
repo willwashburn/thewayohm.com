@@ -7,7 +7,7 @@ html {
 
 /* * {
     border: 1px solid red;
-}  */
+} */
 
 body {
     line-height: 1.5;
@@ -49,32 +49,6 @@ h1, h2, h3 {
 h2 {
     font-size: 3rem;
     margin: 0 0 0 0;
-}
-
-.about {
-    text-align: center;
-    padding: 5% 0;
-    color: white;
-}
-
-.pandemic {
-    background-color: #e5dfdf;
-    font-size: 3rem;
-}
-
-.car {
-    background-color: #6ba8a9;
-    font-size: 3.5rem;
-}
-
-.home {
-    background-color: #357376;
-    font-size: 5rem;
-    font-weight: bold;
-}
-
-.about div{
-    padding: 1% 0;
 }
 
 #nav {
@@ -156,7 +130,66 @@ h2 {
 
 /*Homepage Body*/
 
-.homepage-map {
+
+.about {
+    padding: 5% 0;
+    color: white;
+    display: flex;
+}
+
+.about-container {
+    width: 75%;
+}
+
+.about .pandemic {
+    background-color: #e5dfdf;
+    font-size: 3rem;
+    width: 80%;
+}
+
+.about .pandemic h6 {
+    padding: 0 0 0 50px;
+}
+
+.about .car {
+    background-color: #6ba8a9;
+    font-size: 3.5rem;
+    width: 90%;
+}
+
+.about .car h5 {
+    padding: 0 0 0 50px;
+}
+
+.about .home {
+    background-color: #357376;
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+.about .home h4 {
+    padding: 0 0 0 50px;
+}
+
+.about div {
+    padding: 1% 0 1% 0;
+}
+
+.about-icon-container {
+    display: flex;
+    align-items: flex-end;
+    width: 25%;
+    justify-content: center;
+
+}
+
+.about-icon i {
+    color: #1d4d4f;
+    font-size: 15rem;
+}
+    
+
+/* .homepage-map {
     padding: 1% 0 1% 0;
 }
 
@@ -207,7 +240,7 @@ h2 {
     color: white;
     padding: 5%;
     text-align: center;
-}
+} */
 
 /*Footer*/
 
