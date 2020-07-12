@@ -7,7 +7,7 @@ html {
 
 /* * {
     border: 1px solid red;
-} */
+}  */
 
 body {
     line-height: 1.5;
@@ -40,7 +40,7 @@ body {
       padding: 1%;
   }
 
-h1, h2, h3, h4, h5 {
+h1, h2, h3 {
     font-family: 'Raleway Dots', cursive;
     text-transform: uppercase;
     font-weight: 500;
@@ -49,6 +49,32 @@ h1, h2, h3, h4, h5 {
 h2 {
     font-size: 3rem;
     margin: 0 0 0 0;
+}
+
+.about {
+    text-align: center;
+    padding: 5% 0;
+    color: white;
+}
+
+.pandemic {
+    background-color: #e5dfdf;
+    font-size: 3rem;
+}
+
+.car {
+    background-color: #6ba8a9;
+    font-size: 3.5rem;
+}
+
+.home {
+    background-color: #357376;
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+.about div{
+    padding: 1% 0;
 }
 
 #nav {
@@ -62,11 +88,11 @@ h2 {
 
 .nav-container {
     display: flex;
-    width: 100%;
     justify-content: center;
 }
 
 #nav a {
+    height: 3vh;
     text-decoration: none;
     color: white;
     width: 25%;
