@@ -177,16 +177,11 @@ h2 {
     padding: 1% 0 1% 0;
 }
 
-.about-icon-container {
+.about-image-container {
     display: flex;
     align-items: flex-end;
     width: 25%;
     justify-content: center;
-}
-
-.about-icon i {
-    color: #e5dfdf;
-    font-size: 15rem;
 }
 
 /*About Us*/
@@ -201,11 +196,6 @@ h2 {
 .about-us-container-1 {
     height:50vh;
     width: 30%;
-    background-color:white;
-    background-image:url("https://images.unsplash.com/photo-1465188035480-cf3a60801ea5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80"); opacity:0.;
-    background-repeat:no-repeat;
-    background-size:cover;
-    background-position:center;
     margin: 5%;
     display: flex;
     justify-content: center;
@@ -215,11 +205,6 @@ h2 {
 .about-us-container-2 {
     height:50vh;
     width: 30%;
-    background-color:white;
-    background-image:url("https://images.unsplash.com/photo-1542262868-cec49cce6571?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1076&q=80"); opacity:0.;
-    background-repeat:no-repeat;
-    background-size:cover;
-    background-position:center;
     margin: 5%;
     display: flex;
     justify-content: center;
@@ -227,7 +212,7 @@ h2 {
 }    
 
 .about-us-description {
-    background: rgba(0, 0, 0, 0.2);
+
     padding: 5%;
     color: white;
     font-weight: 800;
