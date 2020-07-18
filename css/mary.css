@@ -248,13 +248,13 @@ h2 {
 
 .pages-container-1 {
     height:50vh;
-    width: 30%;
+    width: 35%;
     background-color:white;
-    background-image:url("https://images.unsplash.com/photo-1465188035480-cf3a60801ea5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80"); opacity:0.;
+    background-image:url("/img/asphalt.jpeg"); opacity:0.;
     background-repeat:no-repeat;
     background-size:cover;
     background-position:center;
-    margin: 5%;
+    margin: 4% 8% 4% 8%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -262,13 +262,13 @@ h2 {
 
 .pages-container-2 {
     height:50vh;
-    width: 30%;
+    width: 35%;
     background-color:white;
-    background-image:url("https://images.unsplash.com/photo-1542262868-cec49cce6571?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1076&q=80"); opacity:0.;
+    background-image:url("/img/circuit.jpeg"); opacity:0.;
     background-repeat:no-repeat;
     background-size:cover;
-    background-position:center;
-    margin: 5%;
+    background-position:right center;
+    margin: 4% 8% 4% 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -276,13 +276,13 @@ h2 {
 
 .pages-container-3 {
     height:50vh;
-    width: 30%;
+    width: 35%;
     background-color:white;
-    background-image:url("https://images.unsplash.com/photo-1542262868-cec49cce6571?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1076&q=80"); opacity:0.;
+    background-image:url("/img/watt.jpeg"); opacity:0.;
     background-repeat:no-repeat;
     background-size:cover;
-    background-position:center;
-    margin: 5%;
+    background-position: center;
+    margin: 4% 8% 4% 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -303,13 +303,13 @@ h2 {
 }
 
 .pages-background {
-    height:115vh;
+    height:90vh;
     width: 100%;
     background-color:white;
     background-image:url("/img/homepage-bottom-background.png"); opacity:0.;
     background-repeat:no-repeat;
     background-size:cover;
-    background-position: bottom;
+    background-position: center;
 }
 
 /*Footer*/
