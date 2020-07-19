@@ -5,10 +5,6 @@ html {
     font-size:62.5%;
 }
 
-/* * {
-    border: 1px solid red;
-} */
-
 body {
     line-height: 1.5;
     font-size: 1.5rem;
@@ -65,7 +61,7 @@ h2 {
 }
 
 #homepage-intro {
-    height:70vh;
+    height:90vh;
     background-color:white;
     background-image:url("https://images.unsplash.com/photo-1571950758113-5ada70ff33e5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2229&q=80"); opacity:0.;
     background-repeat:no-repeat;
@@ -91,12 +87,21 @@ h2 {
     font-size: 13rem;
     margin: 4% 0 0 0;
     background: rgba(0, 0, 0, 0.2);
+    width: 100%;
+}
+
+.title-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .homepage-text .subtitle {
     color: white;
     font-size: 3.5rem;
     background: rgba(0, 0, 0, 0.2);
+    width: 100%;
 }
 
 .homepage-text .subtitle span {
@@ -107,7 +112,8 @@ h2 {
     color: white;
     font-size: 2rem;
     background: rgba(0, 0, 0, 0.2);
-    padding: 1% 0 3% 0;
+    padding: 1% 0 1% 0;
+    width: 100%;
 }
 
 /*Homepage Body*/
@@ -121,6 +127,7 @@ h2 {
 
 .about-container {
     width: 75%;
+    padding: 2% 0 2% 0;
 }
 
 .about .pandemic {
@@ -154,16 +161,17 @@ h2 {
     padding: 0 0 0 50px;
 }
 
-.about div {
-    padding: 1% 0 1% 0;
+.about-image {
+    padding: 0 5% 0 5%;
 }
 
 .about-image-container {
     display: flex;
+    justify-content: center;
     align-items: flex-end;
     width: 25%;
-    justify-content: center;
 }
+
 
 /*Map*/
 
@@ -171,6 +179,19 @@ h2 {
     display: flex;
     justify-content: center;
     background-color: #6ba8a9;
+    padding: 3%;;
+    width: 100%;
+}
+
+.north-america-map img {
+    padding: 5%;
+    width: 100%;
+}
+
+.north-america-map {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /*About Us*/
@@ -180,7 +201,6 @@ h2 {
     flex-direction: column;
     text-align: center;
     justify-content: center;
-    width:75%;
     color: white;
     padding: 3%;
 }
@@ -206,21 +226,19 @@ h2 {
     margin: 2% 0;
 }
 
+.our-story-description p span {
+    font-size: 2.5rem;
+    font-family: 'Raleway Dots', cursive;
+}
+
 .about-us {
     background-color: #357376;
 }
 
-.triangle {
-    border-left: 740px solid #357376;
-    border-right: 740px solid #357376;
-    border-top: 300px solid #6ba8a9;
-}
-
-.about-us h4 {
+.about-us .follow-us {
     text-align: center;
-    padding: 2%;
-    margin: 4% 0 6% 0;
-    font-size: 4rem;
+    padding: 5%;
+    font-size: 5rem;
     color:white;
     font-family: 'Raleway Dots', cursive;
     text-transform: uppercase;
