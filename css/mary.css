@@ -86,7 +86,7 @@ h2 {
     color: white;
     font-size: 13rem;
     margin: 4% 0 0 0;
-    background: rgba(0, 0, 0, 0.2);
+    background: rgba(0, 0, 0, 0.3);
     width: 100%;
 }
 
@@ -100,7 +100,7 @@ h2 {
 .homepage-text .subtitle {
     color: white;
     font-size: 3.5rem;
-    background: rgba(0, 0, 0, 0.2);
+    background: rgba(0, 0, 0, 0.3);
     width: 100%;
 }
 
@@ -111,7 +111,7 @@ h2 {
 .homepage-text .sub-subtitle {
     color: white;
     font-size: 2rem;
-    background: rgba(0, 0, 0, 0.2);
+    background: rgba(0, 0, 0, 0.3);
     padding: 1% 0 1% 0;
     width: 100%;
 }
@@ -214,6 +214,7 @@ h2 {
     border-bottom: 1px dotted white;
     font-family: 'Raleway Dots', cursive;
     text-transform: uppercase;
+    font-weight: bolder;
     margin: 2% 20% 0 20%;
 }
 
@@ -235,7 +236,7 @@ h2 {
     background-color: #357376;
 }
 
-.about-us .follow-us {
+.follow-us {
     text-align: center;
     padding: 5%;
     font-size: 5rem;
@@ -243,6 +244,7 @@ h2 {
     font-family: 'Raleway Dots', cursive;
     text-transform: uppercase;
     background-color: #357376;
+    font-weight: bolder;
 }
 
 .pages-container {
