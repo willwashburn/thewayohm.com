@@ -5,9 +5,9 @@ html {
     font-size:62.5%;
 }
 
-* {
+/* * {
     border: 1px solid red;
-}
+} */
 
 body {
     line-height: 1.5;
@@ -115,7 +115,6 @@ h2 {
 /*About*/
 
 .about {
-    padding: 5% 0;
     color: white;
     display: flex;
 }
@@ -207,10 +206,20 @@ h2 {
     margin: 2% 0;
 }
 
+.about-us {
+    background-color: #357376;
+}
+
+.triangle {
+    border-left: 740px solid #357376;
+    border-right: 740px solid #357376;
+    border-top: 300px solid #6ba8a9;
+}
+
 .about-us h4 {
     text-align: center;
-    margin: 6% 0 0 0;
     padding: 2%;
+    margin: 4% 0 6% 0;
     font-size: 4rem;
     color:white;
     font-family: 'Raleway Dots', cursive;
@@ -218,46 +227,6 @@ h2 {
     background-color: #357376;
 }
 
-/* .about-us {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-} */
-
-/* .about-us-container {
-    display: flex;
-    justify-content: center;
-}
-
-.about-us-container-1 {
-    width: 30%;
-    margin: 5%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.about-us-container-2 {
-    width: 30%;
-    margin: 5%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}     */
-
-/* .about-us-description {
-
-    padding: 5%;
-    color: #1d4d4f;
-    font-weight: 800;
-    font-size: 2rem;
-    width: 75%;
-    height: 75%;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-} */
 
 .pages-container {
     display: flex;
