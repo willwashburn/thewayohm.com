@@ -258,7 +258,7 @@ h2 {
     height:45vh;
     width: 30%;
     background-color:white;
-    background-image:url("/img/asphalt.jpeg"); opacity:0.;
+    background-image:url("/img/asphalt.JPEG"); opacity:0.;
     background-repeat:no-repeat;
     background-size:cover;
     background-position:center;
@@ -286,7 +286,7 @@ h2 {
     height:45vh;
     width: 30%;
     background-color:white;
-    background-image:url("/img/watt.jpeg"); opacity:0.;
+    background-image:url("/img/watt.JPEG"); opacity:0.;
     background-repeat:no-repeat;
     background-size:cover;
     background-position: center;
