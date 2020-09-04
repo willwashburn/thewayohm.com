@@ -294,6 +294,10 @@ h2 {
     align-items: center;
 }
 
+.pages-container-1 i {
+    display: none;
+}
+
 .pages-container-2 {
     height:45vh;
     width: 30%;
@@ -306,7 +310,11 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-}    
+}  
+
+.pages-container-2 i {
+    display: none;
+}
 
 .pages-container-3 {
     height:45vh;
@@ -321,6 +329,10 @@ h2 {
     justify-content: center;
     align-items: center;
 }   
+
+.pages-container-3 i {
+    display: none;
+}
 
 .pages-description {
     background: rgba(0, 0, 0, 0.3);
@@ -403,10 +415,6 @@ h2 {
 
 
 /* Media Queries */
-
-@media (max-width:1200px) {
-
-}
 
 @media (max-width:1024px) {
     #nav {
@@ -556,7 +564,7 @@ h2 {
 @media (max-width:480px) {
     
     #homepage-intro {
-    height: 75vh;
+    height: 100vh;
     }
 
     .title {
@@ -620,8 +628,8 @@ h2 {
 
 @media (max-width:400px) {
 
-    #homepage-intro {
-        height: 60vh;
+    .icon-ohm-container {
+        font-size: 2rem;
     }
 
     .title-container {
@@ -644,43 +652,88 @@ h2 {
         font-size: 1.2rem;
     }
 
+    #map {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .our-story-container {
+        width: 75%;
+    }
+
+    .north-america-map {
+        width: 75%;
+    }
+
+    .story-text {
+        margin-top: 5%;
+    }
+
+    .story-video {
+        margin-bottom: 5%;
+    }
+
     .pages-container {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        margin: 20% 0 0 0;
+        margin: 10% 0 0 0;
     }
 
     .pages-container-1 {
         background: none;
-        height: 10vh;
-        width: 75%;
-        margin: 0;
+        height: 15vh;
+        width: 50%;
+        margin: 2% 0;
+        display: flex;
+    }
+
+    .pages-container-1 i {
+        font-size: 2rem;
+        color: #1d4d4f;
+        display: block;
     }
 
     .pages-container-2 {
         background: none;
-        height: 10vh;
-        width: 75%;
-        margin: 0;
+        height: 15vh;
+        width: 50%;
+        margin: 2% 0;
+        display: flex;
+    }
+
+    .pages-container-2 i {
+        font-size: 2rem;
+        color: #1d4d4f;
+        display: block;
     }
 
     .pages-container-3 {
         background: none;
-        height: 10vh;
-        width: 75%;
-        margin: 0;
+        height: 15vh;
+        width: 50%;
+        margin: 2% 0;
+        display: flex;
+    }
+
+    .pages-container-3 i {
+        font-size: 2rem;
+        color: #1d4d4f;
+        display: block;
     }
 
     .pages-description {
         background: none;
-        color: #202020;
-        padding: 0;
+        color: #357376;
     }
 
     .pages-description a {
         color: #357376;
-        ;
+        font-size: 1.5rem;
+    }
+
+    .pages-description p {
+        font-size: 1rem;
     }
 
     .about-image {
@@ -702,6 +755,26 @@ h2 {
 
     .about .home {
         font-size: 2.5rem;
+    }
+
+}
+
+@media (max-width:350px) {
+    
+    #homepage-intro {
+        height: 90vh;
+    }
+
+    .icon-ohm-container {
+        font-size: 1.5rem;;
+    }
+
+    #nav {
+        font-size: 1rem;
+    }
+
+    #nav a {
+        padding: 8%;
     }
 
 }
