@@ -480,6 +480,17 @@ h2 {
         padding: 5%;
     }
 
+    #page-nav-container {
+        padding: 5% 0;
+    }
+
+    #page-nav {
+        font-size: 1.5rem;
+        margin: 0 5%;
+        display: flex;
+        flex-direction: column;
+    }
+
     .title {
         font-size: 10rem;
     }
@@ -488,8 +499,8 @@ h2 {
 @media (max-width:768px) {
 
     #homepage-intro {
-        background-attachment: initial;
-}
+        background-attachment: initial; 
+    }
     
     .subtitle p {
         font-size: 3rem;
