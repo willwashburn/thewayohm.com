@@ -63,7 +63,7 @@ h2 {
 #homepage-intro {
     height:90vh;
     background-color:white;
-    background-image:url("https://images.unsplash.com/photo-1571950758113-5ada70ff33e5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2229&q=80"); opacity:0.;
+    background-image:url("../img/lake-louise.JPG"); opacity:0.;
     background-repeat:no-repeat;
     background-size:cover;
     background-position:center;
@@ -445,6 +445,10 @@ h2 {
 }
 
 @media (max-width:768px) {
+
+    #homepage-intro {
+        background-attachment: initial;
+}
     
     .subtitle p {
         font-size: 3rem;
@@ -764,10 +768,6 @@ h2 {
 }
 
 @media (max-width:375px) {
-    
-    #homepage-intro {
-        height: 60vh;
-    }
 
     .icon-ohm-container {
         font-size: 1.5rem;;
