@@ -626,7 +626,11 @@ h2 {
 
 }
 
-@media (max-width:400px) {
+@media (max-width:415px) {
+
+    #homepage-intro {
+        height: 80vh;
+    }
 
     .icon-ohm-container {
         font-size: 2rem;
@@ -682,7 +686,7 @@ h2 {
 
     .pages-container-1 {
         background: none;
-        height: 15vh;
+        height: 10vh;
         width: 50%;
         margin: 2% 0;
         display: flex;
@@ -696,7 +700,7 @@ h2 {
 
     .pages-container-2 {
         background: none;
-        height: 15vh;
+        height: 10vh;
         width: 50%;
         margin: 2% 0;
         display: flex;
@@ -710,7 +714,7 @@ h2 {
 
     .pages-container-3 {
         background: none;
-        height: 15vh;
+        height: 10vh;
         width: 50%;
         margin: 2% 0;
         display: flex;
