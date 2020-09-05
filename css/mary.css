@@ -759,10 +759,10 @@ h2 {
 
 }
 
-@media (max-width:350px) {
+@media (max-width:375px) {
     
     #homepage-intro {
-        height: 90vh;
+        height: 60vh;
     }
 
     .icon-ohm-container {
@@ -775,6 +775,18 @@ h2 {
 
     #nav a {
         padding: 8%;
+    }
+
+    .pages-container-1 {
+        height: 5vh;
+    }
+
+    .pages-container-2 {
+        height: 5vh;
+    }
+
+    .pages-container-3 {
+        height: 5vh;
     }
 
 }
